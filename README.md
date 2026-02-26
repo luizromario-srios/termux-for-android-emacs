@@ -13,8 +13,9 @@ I used the following command to sign the APK. It was derived from https://github
 
 apksigner sign --v2-signing-enabled --ks emacs.keystore -debuggable-apk-permitted --ks-pass pass:emacs1 com.termux_1022.apk
 
-This APK works for me on my Android devices, that at the date of writing have the current version of Android provided by OnePlus and Samsung respectively:
+This APK is confirmed to work in the following devices:
 - OnePlus Open
 - Samsung Tab S8+
+- Xiaomi Redmi Pad SE
 
 Note: If you want to do your own signing, and wonder how to install the relevant signing tools, you will have to look elsewhere. I am sorry, but I do not have a pointer to a good (and up to date) instruction for how to install the relevant Android development tools.
